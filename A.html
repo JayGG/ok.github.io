@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shadow</title>
+		<link href="http://sourcebits.wpengine.netdna-cdn.com/wp-content/themes/sb7/images/icons/spinner.png" rel="icon" type="image/png">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
+		<style type="text/css">
+			.btn {
+				width: 300px;
+				height: 100px;
+				border-radius: 10%;
+				background-color: Black;
+				float: left;
+				margin: 20px;
+				box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+				text-align: center;
+				transition: 0.2s;
+			}
+			p {
+				color: white;
+				font-family: "BPG Banner Caps";
+				font-size: 35px;
+				text-transform: uppercase;
+				position: relative;
+				top: -5px;
+			}
+			.btn:hover {
+				box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+				cursor: pointer;
+			}
+			.social {	
+				float: right;
+				padding-top: 30px;
+				padding-right: 20px;
+			}
+			.soc {
+				display: inline-block;
+				margin: 10px;
+				width: 52px;
+				height: 52px;
+				overflow: hidden;
+			}
+			#insta {
+				position: relative;
+				top: 3px;
+				margin-left: 20px;
+			}
+			.soc img:hover {
+				cursor: pointer;
+				transform: translate(0, -52px);
+			}
+			.main {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				width: 100%;
+				height: 150px;
+				background-color: white;
+			}
+			body {
+				background-color: black;
+			}
+			h1 {
+				color: white;
+				font-family: 'Montserrat Subrayada', sans-serif;
+			}
+			.mtxt {
+				position: relative;
+				text-align: center;
+				top: 200px;
+				margin: 0 20px;
+				border-top: 2px solid white;
+				border-bottom: 2px solid white;
+			}
+			.list {
+				position: relative;
+				top: 250px;
+				float: left;
+				margin-left: 50px;
+			}
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			ul li {
+				width: 200px;
+				height: 50px;
+				line-height: 50px;
+				background-color: white;
+				text-align: center;
+				display: block;
+			}
+			ul li a {
+				font-family: "BPG Banner Caps", sans-serif;
+				font-color: black;
+			}
+			ul li ul li {
+				display: none;
+				color: black;
+			}
+			ul li:hover {
+				background-color: black;
+				color: white;
+				cursor: pointer;
+			}
+			ul li:hover ul li {
+				display: block;
+				color: black;
+				cursor: pointer;
+			}
+			ul li ul li:hover {
+				background-color: black;
+				color: white;
+			}
+			@media only screen and (min-width: 480px) and (max-width: 768px;) {
+				.btn {
+					width: 70%;
+					height: 100px;
+					border-radius: 10%;
+					background-color: Black;
+					margin: 20px;
+					box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+					text-align: center;
+					transition: 0.2s;
+				}
+				.social {
+					width: 70%;
+					margin: 0 10px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="btn">
+				<div class="txt">
+					<p>download</p>
+				</div>
+			</div>
+			<div class="social">
+				<div class="soc">
+					<img src="FL.png" width="52px" height="104px">
+				</div>
+				<div class="soc">
+					<img src="https://www.cycleto.ca/sites/default/files/twitter-icon-circle-logo.png" width="52px" height="52px">
+				</div>
+				<div class="soc">
+					<img src="http://siteassets.pagecloud.com/mixedbyam/images/EAZY-SocialMediaIcons-YouTube.png?nocache=fb8fbd28-12b9-4627-d5fe-922221542f66" width="52px" height="52px">
+				</div>
+				<div class="soc" id="insta">
+					<img src="http://diylogodesigns.com/blog/wp-content/uploads/2016/05/black-color-instagram-icon-png.png" width="45px" height="45px">
+				</div>	
+			</div>
+		</div>
+		<div class="mtxt">
+			<h1>the digital world</h1>
+		</div>
+			<div class="list">
+				<ul>
+					<li><a>MAIN</a>
+						<ul>
+							<li><a>MENU</a></li>
+							<li><a>NAV</a></li>
+							<li><a>SECTIONS</a></li>
+							<li><a>APPS</a></li>
+							<li><a>ABOUT US</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+	</body>
+</html>
